@@ -6,6 +6,10 @@ Welcome to a simple [serverless blog](https://serverlessblog.com/). You can:
 
 When done with either setup, you can start development.
 
+### About
+
+This started as a copy of [a gist](https://gist.github.com/gouthambs/c0effc21d5ac37bb2317d8a4c56f4a1b) by Goutham Balaraman. Now, I'm combining his awesome serverless blog with some changes to the [flask-blogging](http://flask-blogging.readthedocs.io/) libary.
+
 ### Development
 
 #### Install DynamoDB
