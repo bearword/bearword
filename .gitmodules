@@ -1,0 +1,3 @@
+[submodule "bearword_blog"]
+	path = bearword_blog
+	url = https://github.com/bearword/bearword_blog
