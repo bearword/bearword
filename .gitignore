@@ -8,4 +8,5 @@
 
 # Modules
 __pycache__
+.python-version
 bearword.egg-info
