@@ -2,11 +2,11 @@ from flask import Flask, render_template
 from flask_login import LoginManager
 from flask_blogging import BloggingEngine
 from flask_blogging.dynamodbstorage import DynamoDBStorage
-from routes import setup_auth
+from .routes import setup_auth
 import os
 
 app = Flask(__name__)
-app.config.from_object("config")
+app.config.from_pyfile("config.py")
 
 # Find database
 AWS_PART = 'us-east-2'

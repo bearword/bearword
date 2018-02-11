@@ -27,7 +27,7 @@ java -Djava.library.path=./lib/dynamodb/DynamoDBLocal_lib -jar lib/dynamodb/Dyna
 In another shell session, start the app like this:
 ```
 export BEWO_DYNAMO="http://localhost:8000"
-export FLASK_APP="blog.py"
+export FLASK_APP="bearword"
 flask run
 ```
 

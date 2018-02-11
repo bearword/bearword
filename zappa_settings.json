@@ -1,6 +1,6 @@
 {
     "dev": {
-        "app_function": "blog.app",
+        "app_function": "bearword.app",
         "aws_region": "us-east-2",
         "profile_name": "default",
         "project_name": "bewo",
