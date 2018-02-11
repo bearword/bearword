@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 from flask_login import LoginManager
-from flask_blogging import BloggingEngine
-from flask_blogging.dynamodbstorage import DynamoDBStorage
+from bearword_blog.bearword_blog import BloggingEngine
+from bearword_blog.bearword_blog.dynamodbstorage import DynamoDBStorage
 from .routes import setup_auth
 import os
 
